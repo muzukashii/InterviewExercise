@@ -21,7 +21,7 @@
     return directive;
 
     /** @ngInject */
-    function NavbarController(moment,$scope,$location,$log) {
+    function NavbarController(moment,$scope,$location) {
       var vm = this;
 
       // "vm.creationDate" is available by directive option "bindToController: true"

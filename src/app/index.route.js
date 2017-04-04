@@ -16,9 +16,7 @@
       })
         .state('exercise', {
         url: '/exercise',
-        templateUrl: 'app/exercise/exercise.html',
-        controller: 'ExerciseController',
-        controllerAs: 'exercise'
+        templateUrl: 'app/exercise/exercise.html'
       });
 
     $urlRouterProvider.otherwise('/');
